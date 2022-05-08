@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
-const OrderSchema = new mongoose.schema(
+const OrderSchema = new mongoose.Schema(
     {
         customer: {
             type: String,
